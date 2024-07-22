@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="3">  <!-- thread-count="5" parallel="tests" -->
+	
+	<test name="Search_Properties>">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.zoopla.runner.ZooplaRunner">
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+	
+	
+	
+	</suite>
