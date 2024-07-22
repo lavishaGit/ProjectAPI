@@ -3,7 +3,7 @@
 <suite name="RegressionSuite2" verbose="3">  <!-- thread-count="5" parallel="tests" -->
 	
 	<test name="Search_Properties>">
-		<parameter name="browser" value="safari"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class
 				name="com.zoopla.runner.ZooplaRunner">
